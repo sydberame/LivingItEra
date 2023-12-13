@@ -1,0 +1,30 @@
+div{
+    color: yellow;
+    text-align: center;
+}
+body {
+   background-color:lightblue;
+}
+.c-item {
+    height: 500px;
+}
+.c-img {
+     height: 500px;
+     object-fit: cover; 
+     width:50%  
+}
+p{
+    color: yellow;
+    text-align: center;
+}
+h4{
+    color: black;
+}
+.C4 {
+    background-color: blue;
+ }
+ .roses {
+   width: 500px;
+   height: 700px;
+   text-align: center;
+ }
