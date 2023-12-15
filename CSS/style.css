@@ -1,3 +1,6 @@
+.yy{
+    background-color: navy;
+}
 div{
     color: yellow;
     text-align: center;
@@ -9,9 +12,9 @@ body {
     height: 500px;
 }
 .c-img {
-     height: 500px;
+     height: auto;
      object-fit: cover; 
-     width:50%  
+     max-width: 100px; 
 }
 p{
     color: yellow;
@@ -21,16 +24,13 @@ p{
 h4{
     color: black;
 }
-.C4 {
-    background-color:gray;
- }
+
  .roses {
    width: 500px;
    height: 700px;
    text-align: center;
  }
- .tx {
-    background-color: gray;
+ .tx { 
     width: 1900px;
     height: 900px;
     text-align: center;
@@ -43,12 +43,98 @@ h4{
     background-color: yellow;
  }
  .bb{
-    background-color:green;
+    background-color:white;
      width: 1900px;
       height: 900px;
-      text-align: center;
-      
+      text-align: center;    
  }
  .ww{
     color: blue;
+    border: 10px solid white;
+   
+ }
+ .cc{
+    max-width:100%;
+    height: auto;
+    border-radius: 30px;
+ }
+ .pp{
+    text-align: center;
+ }
+ .cafe{
+    background-color: black;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+ .aa{
+    width: 1900px;
+    height: 900px;
+    text-align: center;    
+ }
+ .entoy{
+    background-color: navy;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+ .oo{
+    width: 1900px;
+    height: 900px;
+    text-align: center; 
+ }
+ .parola{
+    background-color: orange;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+ .uu{
+    width: 1900px;
+    height: 900px;
+    text-align: center; 
+ }
+ .sungka{
+    background-color:green;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+ .su{
+    color: green;
+ }
+ .pa{
+    color: orange;
+ }
+ .gr{
+    color: gray;
+ }
+ .en{
+    color: navy;
+ }
+ .ca{
+    color: black;
+ }
+ .an{
+    color: yellow;
+ }
+ .st{
+    color: brown;
+ }
+ .qq{
+    background-color: green;
+    color: green;
+ }
+ .muse{
+    background-color:brown;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+ .bric{
+    background-color:yellow;
+  color: aliceblue;
+  border: 10px solid white;
+ }
+.pi{
+    background-color: royalblue;
+ }
+ .ct{
+    border: 50px;
+    border-color: black;
  }
