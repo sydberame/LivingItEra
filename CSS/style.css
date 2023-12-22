@@ -138,3 +138,48 @@ h4{
     border: 50px;
     border-color: black;
  }
+.like {
+    width:100px;
+    height:70px;
+    background:blue;
+    font-size:30px;
+    border:10px solid black; 
+    border-radius:50px;   
+}
+ .heart {
+    width:100px;
+    height:70px;
+    background:red;
+    font-size:30px;
+    border:10px solid black; 
+    border-radius:50px;   
+}
+ .fun {
+    width:100px;
+    height:70px;
+    background:yellow;
+    font-size:30px;
+    border:10px solid black; 
+    border-radius:50px;   
+}
+ .sad {
+    width:100px;
+    height:70px;
+    background:#80ffac;
+    font-size:30px;
+    border:10px solid black; 
+    border-radius:50px;   
+}
+ .angry {
+    width:100px;
+    height:70px;
+    background:orangered;
+    font-size:30px;
+    border:10px solid black; 
+    border-radius:50px;   
+}
+.py{
+    background: black;
+    width:525px;
+}
+
