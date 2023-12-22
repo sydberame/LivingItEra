@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <img src="image/paul.jpg" alt="Avatar Logo" style="width:50px;" class="rounded-pill">
+      <a class="navbar-brand" href="#white">Our Personal Blogs</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#post">Our Personal Blogs</a>
+          </li>
+        
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mt-1">
+    <div class="row">
+      <div class="col-md-8">
+        <section class="Home pt-2" id="Home">
+        <img src="image/US.jpg" alt="Blog Image" class="img-fluid">
+        
+        <div style="display:none" id="Like">
+            <p>&#x1F44D;<b>You</b></p>
+        </div>
+      <div style="display:none" id="Heart">
+            <p>&#10084;<b>You</b></p>
+        </div>
+      <div style="display:none" id="Fun">
+            <p>&#128514;<b>You</b></p>
+        </div>
+     <div style="display:none" id="Sad">
+            <p>&#128546;<b>You</b></p>
+        </div>
+     <div style="display:none" id="Angry">
+            <p>&#128545;<b>You</b></p>
+        </div>
+        
+        
+        <div class="py">
+        <button class="like" onclick="myFunction()">&#x1F44D;</button>
+       <button class="heart" onclick="myfunction()">&#10084;</button>
+       <button class="fun" onclick="MyFunction()">&#128514;</button>
+       <button class="sad" onclick="myFuncTion ()">&#128546;</button>
+       <button class="angry" onclick="myFunctioN()">&#128545;</button>
+       </div>
+       <script>
+     function myFunction() {
+      
+      
+      document.getElementById("Like").style.fontSize= "50px";
+      
+      document.getElementById("Like").style.color= "Black";
+      
+    document.body.style.backgroundColor= "#00abff";
+      
+        document.getElementById("Like").style.display='block';
+        document.getElementById("Sad").style.display='none';
+        document.getElementById("Angry").style.display='none';
+        document.getElementById("Fun").style.display='none';
+        document.getElementById("Heart").style.display='none';
+      }
+       
+     function myfunction() {
+      
+      
+      document.getElementById("Heart").style.fontSize= "50px";
+      
+      document.getElementById("Heart").style.color= "Black";
+      
+    document.body.style.backgroundColor= "pink";
+      
+        document.getElementById("Heart").style.display='block';
+        document.getElementById("Sad").style.display='none';
+        document.getElementById("Like").style.display='none';
+        document.getElementById("Fun").style.display='none';
+        document.getElementById("Angry").style.display='none';
+      }
+      function MyFunction() {
+      
+      
+      document.getElementById("Fun").style.fontSize= "50px";
+      
+      document.getElementById("Fun").style.color= "Black";
+      
+    document.body.style.backgroundColor= "Yellow";
+      
+        document.getElementById("Fun").style.display='block';
+        document.getElementById("Sad").style.display='none';
+        document.getElementById("Like").style.display='none';
+        document.getElementById("Angry").style.display='none';
+        document.getElementById("Heart").style.display='none';
+      }
+      function myFuncTion() {
+      
+      
+      document.getElementById("Sad").style.fontSize= "50px";
+      
+      document.getElementById("Sad").style.color= "Black";
+      
+    document.body.style.backgroundColor= "#80ffac";
+      
+        document.getElementById("Sad").style.display='block';
+        document.getElementById("Angry").style.display='none';
+        document.getElementById("Like").style.display='none';
+        document.getElementById("Fun").style.display='none';
+        document.getElementById("Heart").style.display='none';
+      }
+      
+     function myFunctioN() {
+      
+      
+      document.getElementById("Angry").style.fontSize= "50px";
+      
+      document.getElementById("Angry").style.color= "Black";
+      
+    document.body.style.backgroundColor= "orangered";
+      
+        document.getElementById("Angry").style.display='block';
+        document.getElementById("Sad").style.display='none';
+        document.getElementById("Like").style.display='none';
+        document.getElementById("Fun").style.display='none';
+        document.getElementById("Heart").style.display='none';
+      }
+    </script>
+      <div class="col-md-4">
+        <h4>Our Blog Posts</h4>
+       <a href="#post"></a>
+        <ul class="list-group"><br>
+          <p>John Paul A. Jumao-as </p>
+          <li class="list-group-item"><a href="JPblog.html"> Personal Blog</a></li><br>
+          <p>Apple Cabaluna</p>
+          <li class="list-group-item"><a href="https://sceneryofcordova.blogspot.com/2023/12/cordova-museum_19.html"> Personal Blog  </a></li><br>
+          <p>Sydney Berame</p>
+          <li class="list-group-item"><a href="blog.html"> Personal Blog</a></li>
+          <p><br>Apple Jean Cabrdo<br></p>
+          <li class="list-group-item"><a href="Environment.html"> Personal Blog</a></li>
+          <p><br>Estephany Lumontad<br></p>
+          <li class="list-group-item"><a href="http://lungsodsacordova.blogspot.com/2023/12/halooo-letstravelwithsteffy.html"> Personal Blog</a></li>
+          <p><br>Shane Mary Viscaya<br></p>
+          <li class="list-group-item"><a href="Environment.html"> Personal Blog</a></li>
+          <section class="Contact pt-5  bg-dark text-white" id="Contact">
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#Home">Return to Top</a>
+
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    &copy; 2023 My Blog. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
