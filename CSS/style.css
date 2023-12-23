@@ -142,7 +142,7 @@ h4{
 
  }
 .like {
-    width:70px;
+    width:65px;
     height:50px;
     background:blue;
     font-size:15    px;
@@ -150,7 +150,7 @@ h4{
     border-radius:50px;   
 }
  .heart {
-    width:70px;
+    width:65px;
     height:50px;
     background:red;
     font-size:15px;
@@ -158,7 +158,7 @@ h4{
     border-radius:50px;   
 }
  .fun {
-    width:70px;
+    width:65px;
     height:50px;
     background:yellow;
     font-size:15px;
@@ -166,7 +166,7 @@ h4{
     border-radius:50px;   
 }
  .sad {
-    width:70px;
+    width:65px;
     height:50px;
     background:#80ffac;
     font-size:15px;
@@ -174,7 +174,7 @@ h4{
     border-radius:50px;   
 }
  .angry {
-    width:70px;
+    width:65px;
     height:50px;
     background:orangered;
     font-size:15px;
