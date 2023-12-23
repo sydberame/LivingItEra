@@ -1,6 +1,3 @@
-yy{
-    background-color: navy;
-}
 div{
     color: yellow;
     text-align: center;
@@ -9,7 +6,7 @@ body {
    background-color:lightblue;
 }
 .c-item {
-    height: 500px;
+    height: 250px;
 }
 .c-img {
      height: auto;
@@ -31,6 +28,7 @@ h4{
    text-align: center;
  }
  .tx { 
+    background-color: gray;
     width: 1900px;
     height: 900px;
     text-align: center;
@@ -138,48 +136,52 @@ h4{
     border: 50px;
     border-color: black;
  }
+ .all{
+    border-radius: 40px;
+    border:5px solid black; 
+
+ }
 .like {
-    width:100px;
-    height:70px;
+    width:70px;
+    height:50px;
     background:blue;
-    font-size:30px;
-    border:10px solid black; 
+    font-size:15    px;
+    border:5px solid black; 
     border-radius:50px;   
 }
  .heart {
-    width:100px;
-    height:70px;
+    width:70px;
+    height:50px;
     background:red;
-    font-size:30px;
-    border:10px solid black; 
+    font-size:15px;
+    border:5px solid black; 
     border-radius:50px;   
 }
  .fun {
-    width:100px;
-    height:70px;
+    width:70px;
+    height:50px;
     background:yellow;
-    font-size:30px;
-    border:10px solid black; 
+    font-size:15px;
+    border:5px solid black; 
     border-radius:50px;   
 }
  .sad {
-    width:100px;
-    height:70px;
+    width:70px;
+    height:50px;
     background:#80ffac;
-    font-size:30px;
-    border:10px solid black; 
+    font-size:15px;
+    border:5px solid black; 
     border-radius:50px;   
 }
  .angry {
-    width:100px;
-    height:70px;
+    width:70px;
+    height:50px;
     background:orangered;
-    font-size:30px;
-    border:10px solid black; 
+    font-size:15px;
+    border:5px solid black; 
     border-radius:50px;   
 }
 .py{
     background: black;
-    width:525px;
+    width:400px;
 }
-
